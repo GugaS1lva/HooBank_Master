@@ -12,11 +12,11 @@ const Navbar = () => {
     <nav className={`w-full flex py-6 justify-between items-center navbar`}>
       <img src={logo} alt="hoobank" className='w-[124px] h-[32px]' />
 
-      <ul className='text-white list-none sm:flex hidden justify-end items-center flex-1'>
+      <ul className='text-dimWhite hover:text-white list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (
           <li
             key={index}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-white`}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'} text-dimWhite hover:text-white`}
           >
             <a href={`#${nav.id}`}>
               {nav.title}
@@ -33,12 +33,12 @@ const Navbar = () => {
           onClick={() => setToggler((prev) => !prev)}
         />
 
-        <div className={`${toggler ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
-          <ul className='text-white list-none flex flex-col justify-end items-center flex-1'>
+        <div className={`${toggler ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-16 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+          <ul className='text-dimWhite hover:text-white list-none flex flex-col justify-end items-center flex-1'>
             {navLinks.map((nav, index) => (
               <li
                 key={index}
-                className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-white`}
+                className={`font-poppins font-normal cursor-pointer text-[16px] ${index === navLinks.length - 1 ? 'mr-0' : 'mb-4'} text-dimWhite hover:text-white`}
               >
                 <a href={`#${nav.id}`}>
                   {nav.title}

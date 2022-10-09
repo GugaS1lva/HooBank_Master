@@ -10,7 +10,7 @@ const Hero = () => {
           <img
             src={discount}
             alt="disocunt"
-            className='w-[32px] h-[32px'
+            className='w-[32px] h-[32px]'
           />
           <p className={`${styles.paragraph} ml-2`}>
             <span className='text-white'>20%</span> Discount For {" "}
