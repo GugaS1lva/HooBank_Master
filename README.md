@@ -16,7 +16,8 @@
 
 > This project was built just to improve my Web Development skills.
 >
-> Design created by OneWeekWonders [https://www.oneweekwonders.com/]
+> Design created by OneWeekWonders ▸ ⟬ https://www.oneweekwonders.com/ ⟭                                                                                                                              
+> Figma design by OneWeekWonders ▸ ⟬ [Click-me](https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank?node-id=1%3A31) ⟭
 
 <h3 id="screenshot"><strong>Screenshot</strong></h3>
 
