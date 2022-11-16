@@ -1,4 +1,4 @@
-# HooBank Master App
+# HooBank Project | Master
 <h2>Table of contents</h2>
 
 - [Overview](#overview)
